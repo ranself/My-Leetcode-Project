@@ -6,6 +6,7 @@
 
 // @lc code=start
 class Solution {
+
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         int ans = 0;
         int expired = 0;
@@ -19,5 +20,6 @@ class Solution {
         }
         return ans;
     }
+    
 }
 // @lc code=end

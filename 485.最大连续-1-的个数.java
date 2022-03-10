@@ -6,6 +6,7 @@
 
 // @lc code=start
 class Solution {
+
     public int findMaxConsecutiveOnes(int[] nums) {
         int count = 0, maxCount = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -19,5 +20,6 @@ class Solution {
         maxCount = count > maxCount ? count : maxCount;
         return maxCount;
     }
+    
 }
 // @lc code=end

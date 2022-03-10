@@ -8,6 +8,7 @@ import java.util.Arrays;
 
 // @lc code=start
 class Solution {
+
     public int thirdMax(int[] nums) {
         Arrays.sort(nums);
         reverse(nums);
@@ -29,5 +30,6 @@ class Solution {
             right--;
         }
     }
+    
 }
 // @lc code=end

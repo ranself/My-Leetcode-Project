@@ -8,6 +8,7 @@ import java.util.Arrays;
 
 // @lc code=start
 class Solution {
+
     public int maximumProduct(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
@@ -15,5 +16,6 @@ class Solution {
         int ans2 = nums[0] * nums[1] * nums[n - 1];
         return Math.max(ans1, ans2);
     }
+    
 }
 // @lc code=end
